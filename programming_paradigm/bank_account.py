@@ -1,7 +1,5 @@
 #!/bin/python3
 
-# bank_account.py
-
 class BankAccount:
     def __init__(self, initial_balance=0):
         self.__account_balance = initial_balance  # Encapsulated attribute
