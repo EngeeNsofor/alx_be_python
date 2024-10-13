@@ -11,11 +11,11 @@ class Book:
         """Destructor that is called when the object is about to be destroyed."""
         print(f"Deleting {self.title}")
 
-    def __str__(self) -> str:
+    def __str__(self):
         """String representation of the Book instance."""
         return f"{self.title} by {self.author}, published in {self.year}"
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         """Official representation of the Book instance for debugging."""
         return f"Book('{self.title}', '{self.author}', {self.year})"
 
