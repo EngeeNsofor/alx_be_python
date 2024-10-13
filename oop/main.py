@@ -1,5 +1,6 @@
 #!/bin/python3
 
+# testing for book_class.py
 from book_class import Book
 
 def main():
@@ -38,6 +39,24 @@ def main():
 
     # List all books in the library
     my_library.list_books()
+
+if __name__ == "__main__":
+    main()
+
+
+#testing for polymorphism_demo.py
+
+from polymorphism_demo import Shape, Rectangle, Circle
+import math
+
+def main():
+    shapes = [
+        Rectangle(10, 5),
+        Circle(7)
+    ]
+
+    for shape in shapes:
+        print(f"The area of the {shape.__class__.__name__} is: {shape.area()}")
 
 if __name__ == "__main__":
     main()

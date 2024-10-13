@@ -1,7 +1,5 @@
 #!/bin/python3
 
-# library_system.py
-
 class Book:
     def __init__(self, title: str, author: str):
         """Initialize the Book attributes."""
